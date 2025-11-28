@@ -1,0 +1,30 @@
+{
+  "simple_cnn.pt": {
+    "description": "Simple CNN with 2 conv layers for MNIST-like data",
+    "input_shape": [
+      1,
+      28,
+      28
+    ],
+    "num_classes": 10,
+    "model_class": "SimpleCNN"
+  },
+  "deep_cnn.pt": {
+    "description": "Deeper CNN with 3 conv layers and dropout",
+    "input_shape": [
+      1,
+      28,
+      28
+    ],
+    "num_classes": 10,
+    "model_class": "DeepCNN"
+  },
+  "simple_mlp.pt": {
+    "description": "Multi-layer perceptron for flattened input",
+    "input_shape": [
+      784
+    ],
+    "num_classes": 10,
+    "model_class": "SimpleMLP"
+  }
+}
